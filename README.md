@@ -11,7 +11,18 @@ Este proyecto implementa un chatbot diseñado para responder preguntas relaciona
 
 ## Estructura del Proyecto
 
-├── src │ ├── controllers # Lógica para manejar las rutas de la API │ ├── core # Funciones y clases base, incluyendo el modelo de embeddings │ ├── data │ │ ├── model # Modelos de datos, como productos y tiendas │ │ └── service # Servicios de acceso a la base de datos (Firestore) │ ├── domain │ │ ├── model # Clases de dominio, como productos y tiendas │ │ └── repository # Repositorios para interactuar con la base de datos │ ├── routes # Rutas de la API, incluidas las consultas y recomendaciones │ ├── embeddings # Archivos y lógica para manejar los embeddings y FAISS │ └── main.py # Archivo principal para inicializar el servidor └── requirements.txt # Dependencias del proyecto
+├── src │ 
+   ├─ chatbot
+   ├── controllers # Lógica para manejar las rutas de la API │ 
+   ├── core # Funciones y clases base, incluyendo el modelo de embeddings │ 
+   ├── data │ 
+      │ ├── model # Modelos de datos, como productos y tiendas 
+      │ │ └── service # Servicios de acceso a la base de datos (Firestore) 
+   │ ├── domain │ 
+      │ ├── model # Clases de dominio, como productos y tiendas 
+         │ │ └── repository # Repositorios para interactuar con la base de datos │ 
+   ├── routes # Rutas de la API, incluidas las consultas y recomendaciones 
+   │ ├── embeddings # Archivos y lógica para manejar los embeddings y FAISS │ └── main.py # Archivo principal para inicializar el servidor └── requirements.txt # Dependencias del proyecto
 
 markdown
 Copiar
